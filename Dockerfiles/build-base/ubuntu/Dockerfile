@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 ARG MAJOR_VERSION=6.2
 ARG ZBX_VERSION=${MAJOR_VERSION}.2
