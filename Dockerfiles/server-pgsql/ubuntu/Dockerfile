@@ -5,7 +5,7 @@ ARG BUILD_BASE_IMAGE=zabbix-build-pgsql:ubuntu-${ZBX_VERSION}
 
 FROM ${BUILD_BASE_IMAGE} as builder
 
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 ARG MAJOR_VERSION
 ARG ZBX_VERSION
