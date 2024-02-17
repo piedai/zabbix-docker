@@ -6,7 +6,7 @@ ARG ZBX_SOURCES=https://git.zabbix.com/scm/zbx/zabbix.git
 
 FROM ${BUILD_BASE_IMAGE} as builder
 
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 ARG MAJOR_VERSION
 ARG ZBX_VERSION
